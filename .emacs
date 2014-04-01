@@ -12,4 +12,4 @@
  ;; If there is more than one, they won't work right.
  )
 (x-focus-frame nil)
-
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
